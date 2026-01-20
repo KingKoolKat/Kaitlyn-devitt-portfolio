@@ -1,12 +1,14 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_ORG/YOUR_REPO
-  branch: main
-  base_url: https://YOUR-AUTH-DOMAIN
+  repo: KingKoolKat/Kaitlyn-devitt-portfolio
+  branch: master
+  # OAuth helper is implemented as Cloudflare Pages Functions in this repo at /auth and /callback.
+  # Set base_url to your deployed site URL (usually the same value as site_url).
+  base_url: https://kaitlyn-devitt-portfolio.pages.dev
   auth_endpoint: /auth
 
 local_backend: true
-site_url: https://YOUR-SITE-URL
+site_url: https://kaitlyn-devitt-portfolio.pages.dev
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
