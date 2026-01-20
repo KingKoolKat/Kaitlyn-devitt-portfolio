@@ -1,0 +1,11 @@
+{
+  "title": "TV",
+  "intro": "Selected broadcast work and on camera segments.",
+  "emptyMessage": "New segments coming soon.",
+  "defaultLinkLabel": "Watch segment",
+  "items": [
+    "coastal-resilience",
+    "forest-restoration-series",
+    "river-town-stories"
+  ]
+}

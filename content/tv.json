@@ -1,0 +1,36 @@
+{
+  "title": "TV",
+  "intro": "Selected broadcast work and on camera segments.",
+  "items": [
+    {
+      "title": "Coastal Resilience",
+      "outlet": "PBS NewsHour",
+      "date": "2024",
+      "blurb": "Field production and photography for a segment on climate adaptation along the coast.",
+      "link": "https://example.com/",
+      "linkLabel": "Watch segment",
+      "thumbnail": "assets/uploads/tv-coast.jpg",
+      "alt": "Reporter filming near the shoreline"
+    },
+    {
+      "title": "Forest Restoration Series",
+      "outlet": "National Geographic",
+      "date": "2023",
+      "blurb": "Short feature covering prescribed burns and community response in the Cascades.",
+      "link": "https://example.com/",
+      "linkLabel": "Watch feature",
+      "thumbnail": "assets/uploads/tv-forest.jpg",
+      "alt": "Crew interviewing a firefighter in the woods"
+    },
+    {
+      "title": "River Town Stories",
+      "outlet": "CNN",
+      "date": "2022",
+      "blurb": "On location coverage of water access and rural infrastructure challenges.",
+      "link": "https://example.com/",
+      "linkLabel": "Watch story",
+      "thumbnail": "assets/uploads/tv-river.jpg",
+      "alt": "Wide shot of a town on a river"
+    }
+  ]
+}

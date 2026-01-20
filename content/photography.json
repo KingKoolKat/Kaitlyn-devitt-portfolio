@@ -1,0 +1,36 @@
+{
+  "title": "Photography",
+  "intro": "A curated set of photographs with notes from recent assignments and field work.",
+  "photos": [
+    {
+      "image": "/assets/uploads/solution.png",
+      "alt": "Portrait in soft coastal fog",
+      "caption": "Coastal portrait"
+    },
+    {
+      "image": "assets/uploads/placeholder.svg",
+      "alt": "Wide river bend at sunrise",
+      "caption": "Morning bend"
+    },
+    {
+      "image": "assets/uploads/placeholder.svg",
+      "alt": "Hands sorting fresh harvest",
+      "caption": "Local harvest"
+    },
+    {
+      "image": "assets/uploads/placeholder.svg",
+      "alt": "Mountain ridge with wildflowers",
+      "caption": "Alpine bloom"
+    },
+    {
+      "image": "assets/uploads/placeholder.svg",
+      "alt": "Sunlight through evergreen canopy",
+      "caption": "Evergreen light"
+    },
+    {
+      "image": "assets/uploads/placeholder.svg",
+      "alt": "Kayaks on still water",
+      "caption": "Still water"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Radio",
+  "intro": "Audio stories, interviews, and guest segments.",
+  "emptyMessage": "New audio features coming soon.",
+  "defaultLinkLabel": "Listen",
+  "items": [
+    "forest-fires-community",
+    "water-western-states",
+    "voices-from-the-trail"
+  ]
+}

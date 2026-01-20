@@ -1,0 +1,404 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_ORG/YOUR_REPO
+  branch: main
+  base_url: https://YOUR-AUTH-DOMAIN
+  auth_endpoint: /auth
+
+local_backend: true
+site_url: https://YOUR-SITE-URL
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - file: "content/site.json"
+        label: "Global Content"
+        name: "site"
+        format: "json"
+        fields:
+          - label: "Site"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Footer Text", name: "footerText", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - label: "Colors"
+                name: "colors"
+                widget: "object"
+                fields:
+                  - { label: "Background", name: "background", widget: "color" }
+                  - { label: "Surface", name: "surface", widget: "color" }
+                  - { label: "Text", name: "ink", widget: "color" }
+                  - { label: "Text Muted", name: "inkMuted", widget: "color" }
+                  - { label: "Accent", name: "accent", widget: "color" }
+                  - { label: "Accent Secondary", name: "accent2", widget: "color" }
+              - label: "Typography"
+                name: "typography"
+                widget: "object"
+                fields:
+                  - { label: "Heading Font Family", name: "headingFont", widget: "string" }
+                  - { label: "Body Font Family", name: "bodyFont", widget: "string" }
+                  - label: "Font Import URLs"
+                    name: "fontImports"
+                    widget: "list"
+                    required: false
+                    field: { label: "Font CSS URL", name: "url", widget: "string" }
+                  - label: "Section Overrides"
+                    name: "sections"
+                    widget: "object"
+                    fields:
+                      - label: "Header"
+                        name: "header"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "Brand Size", name: "brandSize", widget: "string", required: false }
+                          - { label: "Tagline Size", name: "taglineSize", widget: "string", required: false }
+                          - { label: "Nav Size", name: "navSize", widget: "string", required: false }
+                      - label: "Hero"
+                        name: "hero"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "Hero Title Size", name: "heroTitleSize", widget: "string", required: false }
+                          - { label: "Hero Subtitle Size", name: "heroSubtitleSize", widget: "string", required: false }
+                          - { label: "Eyebrow Size", name: "eyebrowSize", widget: "string", required: false }
+                          - { label: "Lead Text Size", name: "leadSize", widget: "string", required: false }
+                      - label: "About"
+                        name: "about"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "H2 Size", name: "h2Size", widget: "string", required: false }
+                          - { label: "H3 Size", name: "h3Size", widget: "string", required: false }
+                      - label: "Featured Work"
+                        name: "previews"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "H2 Size", name: "h2Size", widget: "string", required: false }
+                          - { label: "H3 Size", name: "h3Size", widget: "string", required: false }
+                      - label: "Page Hero"
+                        name: "pageHero"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "H1 Size", name: "h1Size", widget: "string", required: false }
+                          - { label: "Lead Text Size", name: "leadSize", widget: "string", required: false }
+                      - label: "Reel Content"
+                        name: "reel"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "Caption Size", name: "captionSize", widget: "string", required: false }
+                      - label: "List Sections (TV/Print/Radio)"
+                        name: "list"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "H3 Size", name: "h3Size", widget: "string", required: false }
+                          - { label: "Meta Size", name: "metaSize", widget: "string", required: false }
+                          - { label: "Caption Size", name: "captionSize", widget: "string", required: false }
+                      - label: "Photography"
+                        name: "photography"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "Photo Caption Size", name: "photoCaptionSize", widget: "string", required: false }
+                      - label: "Footer"
+                        name: "footer"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Heading Font Family", name: "headingFont", widget: "string", required: false }
+                          - { label: "Body Font Family", name: "bodyFont", widget: "string", required: false }
+                          - { label: "Base Font Size", name: "baseSize", widget: "string", required: false }
+                          - { label: "Footer Title Size", name: "footerTitleSize", widget: "string", required: false }
+                  - { label: "Base Font Size", name: "baseSize", widget: "string", hint: "Use CSS values like 16px or 1rem." }
+                  - { label: "Brand Size", name: "brandSize", widget: "string", required: false }
+                  - { label: "Tagline Size", name: "taglineSize", widget: "string", required: false }
+                  - { label: "Nav Size", name: "navSize", widget: "string", required: false }
+                  - { label: "H1 Size", name: "h1Size", widget: "string", required: false }
+                  - { label: "H2 Size", name: "h2Size", widget: "string", required: false }
+                  - { label: "H3 Size", name: "h3Size", widget: "string", required: false }
+                  - { label: "H4 Size", name: "h4Size", widget: "string", required: false }
+                  - { label: "Hero Title Size", name: "heroTitleSize", widget: "string", required: false }
+                  - { label: "Hero Subtitle Size", name: "heroSubtitleSize", widget: "string", required: false }
+                  - { label: "Eyebrow Size", name: "eyebrowSize", widget: "string", required: false }
+                  - { label: "Lead Text Size", name: "leadSize", widget: "string", required: false }
+                  - { label: "Meta Text Size", name: "metaSize", widget: "string", required: false }
+                  - { label: "Caption Size", name: "captionSize", widget: "string", required: false }
+                  - { label: "Photo Caption Size", name: "photoCaptionSize", widget: "string", required: false }
+                  - { label: "Footer Title Size", name: "footerTitleSize", widget: "string", required: false }
+              - label: "Social Links"
+                name: "socials"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+                  - label: "Icon"
+                    name: "icon"
+                    widget: "select"
+                    required: false
+                    options:
+                      - "none"
+                      - "instagram"
+                      - "linkedin"
+                      - "vimeo"
+                      - "youtube"
+                      - "tiktok"
+                      - "x"
+                      - "facebook"
+                  - { label: "Show Label Text", name: "showLabel", widget: "boolean", required: false }
+          - label: "Navigation"
+            name: "nav"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Link", name: "href", widget: "string" }
+              - { label: "File", name: "file", widget: "file", required: false }
+              - { label: "Page ID", name: "page", widget: "string", required: false }
+              - { label: "Download File", name: "download", widget: "boolean", required: false }
+              - { label: "Button Style", name: "isButton", widget: "boolean", required: false }
+
+  - name: "home"
+    label: "Home"
+    files:
+      - file: "content/home.json"
+        label: "Home Page"
+        name: "home"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Hero Background Image", name: "backgroundImage", widget: "image" }
+              - { label: "Use Dark Overlay", name: "overlay", widget: "boolean", required: false }
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Image Alt", name: "imageAlt", widget: "string" }
+          - label: "Personal Photos"
+            name: "personalPhotos"
+            widget: "object"
+            fields:
+              - { label: "Show Section", name: "enabled", widget: "boolean", required: false }
+              - label: "Photos"
+                name: "photos"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+                  - { label: "Caption", name: "caption", widget: "string", required: false }
+          - label: "Featured Work"
+            name: "previews"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Link", name: "link", widget: "string" }
+                  - { label: "Link Label", name: "linkLabel", widget: "string" }
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Image Alt", name: "alt", widget: "string" }
+
+  - name: "reel"
+    label: "Reel"
+    files:
+      - file: "content/reel.json"
+        label: "Reel Page"
+        name: "reel"
+        format: "json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "text" }
+          - label: "Video"
+            name: "video"
+            widget: "object"
+            fields:
+              - { label: "Embed URL", name: "embedUrl", widget: "string" }
+              - { label: "Video Title", name: "title", widget: "string", required: false }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+
+  - name: "photography"
+    label: "Photography"
+    files:
+      - file: "content/photography.json"
+        label: "Photography Page"
+        name: "photography"
+        format: "json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "text" }
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+
+  - name: "tv_page"
+    label: "TV Page"
+    files:
+      - file: "content/tv/index.json"
+        label: "TV Index"
+        name: "tv_index"
+        format: "json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "text" }
+          - { label: "Empty Message", name: "emptyMessage", widget: "string" }
+          - { label: "Default Link Label", name: "defaultLinkLabel", widget: "string" }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            field:
+              label: "TV Entry"
+              name: "item"
+              widget: "relation"
+              collection: "tv_entries"
+              search_fields: ["title", "outlet"]
+              value_field: "{{slug}}"
+              display_fields: ["title", "outlet", "date"]
+
+  - name: "tv_entries"
+    label: "TV Entries"
+    folder: "content/tv/entries"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Outlet", name: "outlet", widget: "string" }
+      - { label: "Date", name: "date", widget: "string" }
+      - { label: "Blurb", name: "blurb", widget: "text" }
+      - { label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Link Label", name: "linkLabel", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Thumbnail Alt", name: "alt", widget: "string", required: false }
+      - { label: "Embed URL", name: "embedUrl", widget: "string", required: false }
+      - { label: "Embed Title", name: "embedTitle", widget: "string", required: false }
+
+  - name: "print_page"
+    label: "Print Page"
+    files:
+      - file: "content/print/index.json"
+        label: "Print Index"
+        name: "print_index"
+        format: "json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "text" }
+          - { label: "Empty Message", name: "emptyMessage", widget: "string" }
+          - { label: "Default Link Label", name: "defaultLinkLabel", widget: "string" }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            field:
+              label: "Print Entry"
+              name: "item"
+              widget: "relation"
+              collection: "print_entries"
+              search_fields: ["title", "outlet"]
+              value_field: "{{slug}}"
+              display_fields: ["title", "outlet", "date"]
+
+  - name: "print_entries"
+    label: "Print Entries"
+    folder: "content/print/entries"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Outlet", name: "outlet", widget: "string" }
+      - { label: "Date", name: "date", widget: "string" }
+      - { label: "Blurb", name: "blurb", widget: "text" }
+      - { label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Link Label", name: "linkLabel", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Thumbnail Alt", name: "alt", widget: "string", required: false }
+
+  - name: "radio_page"
+    label: "Radio Page"
+    files:
+      - file: "content/radio/index.json"
+        label: "Radio Index"
+        name: "radio_index"
+        format: "json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "text" }
+          - { label: "Empty Message", name: "emptyMessage", widget: "string" }
+          - { label: "Default Link Label", name: "defaultLinkLabel", widget: "string" }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            field:
+              label: "Radio Entry"
+              name: "item"
+              widget: "relation"
+              collection: "radio_entries"
+              search_fields: ["title", "outlet"]
+              value_field: "{{slug}}"
+              display_fields: ["title", "outlet", "date"]
+
+  - name: "radio_entries"
+    label: "Radio Entries"
+    folder: "content/radio/entries"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Outlet", name: "outlet", widget: "string" }
+      - { label: "Date", name: "date", widget: "string" }
+      - { label: "Blurb", name: "blurb", widget: "text" }
+      - { label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Link Label", name: "linkLabel", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Thumbnail Alt", name: "alt", widget: "string", required: false }
+      - { label: "Embed URL", name: "embedUrl", widget: "string", required: false }
+      - { label: "Embed Title", name: "embedTitle", widget: "string", required: false }

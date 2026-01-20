@@ -1,0 +1,103 @@
+{
+  "site": {
+    "name": "Kaitlyn Devitt",
+    "tagline": "tagline text",
+    "footerText": "footer text",
+    "email": "hello@example.com",
+    "colors": {
+      "background": "#f3f8f5",
+      "surface": "#ffffff",
+      "ink": "#0b2b27",
+      "inkMuted": "#3a5b56",
+      "accent": "#2a7f6f",
+      "accent2": "#3f7da8"
+    },
+    "typography": {
+      "headingFont": "'Cormorant Garamond', serif",
+      "bodyFont": "'Manrope', sans-serif",
+      "fontImports": [],
+      "sections": {
+        "header": {},
+        "hero": {},
+        "about": {},
+        "previews": {},
+        "pageHero": {},
+        "reel": {},
+        "list": {},
+        "photography": {},
+        "footer": {}
+      },
+      "baseSize": "16px",
+      "brandSize": "1.35rem",
+      "taglineSize": "0.8rem",
+      "navSize": "0.95rem",
+      "h1Size": "clamp(2rem, 4vw, 3rem)",
+      "h2Size": "clamp(1.7rem, 3vw, 2.4rem)",
+      "h3Size": "1.4rem",
+      "h4Size": "1.1rem",
+      "heroTitleSize": "clamp(2.6rem, 6vw, 4.4rem)",
+      "heroSubtitleSize": "clamp(1.05rem, 2.2vw, 1.35rem)",
+      "eyebrowSize": "0.75rem",
+      "leadSize": "1.1rem",
+      "metaSize": "0.85rem",
+      "captionSize": "0.95rem",
+      "photoCaptionSize": "0.9rem",
+      "footerTitleSize": "1.3rem"
+    },
+    "socials": [
+      {
+        "label": "Instagram",
+        "url": "https://instagram.com/",
+        "icon": "instagram",
+        "showLabel": true
+      },
+      {
+        "label": "Linkedin or any socials",
+        "url": "https://linkedin.com",
+        "icon": "linkedin",
+        "showLabel": true
+      },
+      {
+        "label": "Youtube",
+        "url": "https://youtube.com",
+        "icon": "youtube",
+        "showLabel": false
+      }
+    ]
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "index.html",
+      "page": ""
+    },
+    {
+      "label": "Reel",
+      "href": "reel.html",
+      "page": ""
+    },
+    {
+      "label": "TV",
+      "href": "tv.html",
+      "page": ""
+    },
+    {
+      "label": "Print",
+      "href": "print.html",
+      "page": ""
+    },
+    {
+      "label": "Radio",
+      "href": "radio.html",
+      "page": ""
+    },
+    {
+      "label": "Download Resume",
+      "href": "assets/uploads/resume.pdf",
+      "file": "assets/uploads/resume.pdf",
+      "page": "",
+      "download": true,
+      "isButton": true
+    }
+  ]
+}

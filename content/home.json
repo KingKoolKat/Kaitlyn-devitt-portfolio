@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "title": "Kaitlyn Devitt",
+    "subtitle": "Subtitle Here",
+    "backgroundImage": "/assets/uploads/placeholder.svg",
+    "overlay": true
+  },
+  "about": {
+    "heading": "About Me",
+    "body": "About me here",
+    "image": "/assets/uploads/placeholder.svg",
+    "imageAlt": "Portrait of Kaitlyn"
+  },
+  "personalPhotos": {
+    "enabled": true,
+    "photos": [
+      {
+        "image": "assets/uploads/placeholder.svg",
+        "alt": "Portrait by a window",
+        "caption": "Afternoon light"
+      },
+      {
+        "image": "assets/uploads/placeholder.svg",
+        "alt": "Friends hiking through a meadow",
+        "caption": "Weekend trail"
+      },
+      {
+        "image": "assets/uploads/placeholder.svg",
+        "alt": "Coffee on a cabin porch",
+        "caption": "Morning routine"
+      }
+    ]
+  },
+  "previews": {
+    "heading": "Featured Work",
+    "intro": "Short paths into the full portfolio.",
+    "items": [
+      {
+        "title": "Reel",
+        "description": "A quick montage of documentary and editorial stories.",
+        "link": "reel.html",
+        "linkLabel": "Watch the reel",
+        "image": "assets/uploads/placeholder.svg",
+        "alt": "Camera on a river bank"
+      },
+      {
+        "title": "TV",
+        "description": "Broadcast segments and on camera production work.",
+        "link": "tv.html",
+        "linkLabel": "See TV work",
+        "image": "assets/uploads/placeholder.svg",
+        "alt": "News crew at a shoreline"
+      },
+      {
+        "title": "Print",
+        "description": "Feature stories, essays, and photo led reporting.",
+        "link": "print.html",
+        "linkLabel": "Read print work",
+        "image": "assets/uploads/placeholder.svg",
+        "alt": "Open magazine on a table"
+      },
+      {
+        "title": "Radio",
+        "description": "Audio pieces and interview appearances.",
+        "link": "radio.html",
+        "linkLabel": "Listen to audio",
+        "image": "assets/uploads/placeholder.svg",
+        "alt": "Studio microphone and headphones"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Photo placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9ede8"/>
+      <stop offset="100%" stop-color="#c1d9d2"/>
+    </linearGradient>
+    <linearGradient id="hills" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6ea195"/>
+      <stop offset="100%" stop-color="#5c8d8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <path d="M0 720 C 220 640, 420 640, 640 720 S 1060 800, 1280 720 S 1500 680, 1600 720 V 1000 H 0 Z" fill="url(#hills)" opacity="0.9"/>
+  <path d="M0 820 C 260 740, 520 760, 780 840 S 1200 940, 1600 860 V 1000 H 0 Z" fill="#487a73" opacity="0.9"/>
+  <circle cx="1180" cy="280" r="120" fill="#f5f7f3" opacity="0.7"/>
+  <g fill="#2d554f" opacity="0.6">
+    <circle cx="360" cy="540" r="16"/>
+    <circle cx="420" cy="520" r="12"/>
+    <circle cx="470" cy="560" r="18"/>
+    <circle cx="520" cy="535" r="14"/>
+  </g>
+  <text x="120" y="160" fill="#2d554f" font-family="Manrope, sans-serif" font-size="34" letter-spacing="6">PHOTO PLACEHOLDER</text>
+  <text x="120" y="210" fill="#2d554f" font-family="Cormorant Garamond, serif" font-size="24">Replace this file with client photography.</text>
+</svg>

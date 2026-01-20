@@ -1,0 +1,36 @@
+{
+  "title": "Print",
+  "intro": "Selected print features, essays, and photo stories.",
+  "items": [
+    {
+      "title": "The Quiet Work of Restoration",
+      "outlet": "Outside",
+      "date": "2024",
+      "blurb": "An essay on the people rebuilding trail networks after wildfire season.",
+      "link": "https://example.com/",
+      "linkLabel": "Read essay",
+      "thumbnail": "assets/uploads/print-restoration.jpg",
+      "alt": "Trail workers carrying tools through a forest"
+    },
+    {
+      "title": "Harvest by the Sea",
+      "outlet": "The Atlantic",
+      "date": "2023",
+      "blurb": "Photo led story following shellfish farmers on the Washington coast.",
+      "link": "https://example.com/",
+      "linkLabel": "Read story",
+      "thumbnail": "assets/uploads/print-harvest.jpg",
+      "alt": "Hands holding shellfish at low tide"
+    },
+    {
+      "title": "Mapping the Rain",
+      "outlet": "GEO",
+      "date": "2022",
+      "blurb": "A visual report on the science teams tracking watershed health.",
+      "link": "https://example.com/",
+      "linkLabel": "Read feature",
+      "thumbnail": "assets/uploads/print-rain.jpg",
+      "alt": "Scientist collecting water samples"
+    }
+  ]
+}
