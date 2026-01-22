@@ -92,6 +92,14 @@
       "page": ""
     },
     {
+      "label": "Photography",
+      "href": "photography.html",
+      "file": "",
+      "page": "",
+      "download": false,
+      "isButton": false
+    },
+    {
       "label": "Download Resume",
       "href": "assets/uploads/resume.pdf",
       "file": "assets/uploads/resume.pdf",
