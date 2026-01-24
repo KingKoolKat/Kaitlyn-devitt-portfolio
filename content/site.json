@@ -2,7 +2,7 @@
   "site": {
     "name": "Kaitlyn Devitt",
     "tagline": "Multi Media Journalist",
-    "footerText": "Let's get connected!",
+    "footerText": "Let's Connect!",
     "email": "kaitlyndevitt@gmail.com",
     "colors": {
       "background": "#f3f8f5",
@@ -102,7 +102,7 @@
     {
       "label": "Download Resume",
       "href": "assets/uploads/resume.pdf",
-      "file": "assets/uploads/resume.pdf",
+      "file": "/assets/uploads/Devitt Resume 2 (1).pdf",
       "page": "",
       "download": true,
       "isButton": true
