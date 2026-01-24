@@ -6,9 +6,9 @@
     "overlay": true
   },
   "about": {
-    "heading": "About Me",
-    "body": "About me here",
-    "image": "/assets/uploads/placeholder.svg",
+    "heading": "Meet Kaitlyn",
+    "body": "As the youngest of six kids, I’m used to fighting for my seat at the table and making my voice heard. This attitude, combined with a passion for writing, compelled me toward a career in journalism. Now in my senior year at the University of Illinois, I have worked across all sides of the industry and found a love for broadcast reporting. Every week I anchor and report for multiple live programs at UI7 Newsroom, UIUC's student-run TV news studio. Behind the camera, I've worked  as a producer, director, and graphic editor for our programming. When I'm not on TV, I spend my time at WPGU, UIUC's student-run radio station, where I host a weekly music show.",
+    "image": "/assets/uploads/kaitlyn devitt pfp.jpg",
     "imageAlt": "Portrait of Kaitlyn"
   },
   "personalPhotos": {
