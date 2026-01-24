@@ -1,9 +1,9 @@
 {
   "site": {
     "name": "Kaitlyn Devitt",
-    "tagline": "tagline text",
-    "footerText": "footer text",
-    "email": "hello@example.com",
+    "tagline": "Multi Media Journalist",
+    "footerText": "Let's get connected!",
+    "email": "kaitlyndevitt@gmail.com",
     "colors": {
       "background": "#f3f8f5",
       "surface": "#ffffff",
@@ -47,13 +47,13 @@
     "socials": [
       {
         "label": "Instagram",
-        "url": "https://instagram.com/",
+        "url": "https://www.instagram.com/kaitlyndevitt?igsh=MWh0cWc1NTd6cmNyeQ%3D%3D&utm_source=qr",
         "icon": "instagram",
         "showLabel": true
       },
       {
         "label": "Linkedin or any socials",
-        "url": "https://linkedin.com",
+        "url": "www.linkedin.com/in/kaitlyn-devitt-5184a02b2",
         "icon": "linkedin",
         "showLabel": true
       },
