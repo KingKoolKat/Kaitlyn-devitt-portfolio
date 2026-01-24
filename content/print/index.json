@@ -1,11 +1,11 @@
 {
   "title": "Print",
-  "intro": "Selected print features, essays, and photo stories.",
+  "intro": "Selected print news articles",
   "emptyMessage": "New stories coming soon.",
   "defaultLinkLabel": "Read story",
   "items": [
-    "quiet-work-of-restoration",
+    "mapping-the-rain",
     "harvest-by-the-sea",
-    "mapping-the-rain"
+    "quiet-work-of-restoration"
   ]
 }
