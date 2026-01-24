@@ -15,17 +15,17 @@
     "enabled": true,
     "photos": [
       {
-        "image": "assets/uploads/placeholder.svg",
+        "image": "/assets/uploads/hero.jpg",
         "alt": "Portrait by a window",
         "caption": "Afternoon light"
       },
       {
-        "image": "assets/uploads/placeholder.svg",
+        "image": "/assets/uploads/cheyrl thompson.jpg",
         "alt": "Friends hiking through a meadow",
         "caption": "Weekend trail"
       },
       {
-        "image": "assets/uploads/placeholder.svg",
+        "image": "/assets/uploads/nathan and me ui7.jpeg",
         "alt": "Coffee on a cabin porch",
         "caption": "Morning routine"
       }
