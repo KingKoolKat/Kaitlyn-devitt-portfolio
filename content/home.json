@@ -16,18 +16,18 @@
     "photos": [
       {
         "image": "/assets/uploads/hero.jpg",
-        "alt": "Portrait by a window",
-        "caption": "Afternoon light"
+        "alt": "Illinois Student Council Presidential Debate",
+        "caption": "Illinois Student Council Presidential Debate"
       },
       {
         "image": "/assets/uploads/cheyrl thompson.jpg",
-        "alt": "Friends hiking through a meadow",
-        "caption": "Weekend trail"
+        "alt": "Interview with Cheryl Thompson",
+        "caption": "On-set with Cheryl Thompson"
       },
       {
         "image": "/assets/uploads/nathan and me ui7.jpeg",
         "alt": "Coffee on a cabin porch",
-        "caption": "Morning routine"
+        "caption": "Behind the scenes of UI7 Live"
       }
     ]
   },
@@ -53,7 +53,7 @@
       },
       {
         "title": "Print",
-        "description": "Feature stories, essays, and photo led reporting.",
+        "description": "Feature and news articles",
         "link": "print.html",
         "linkLabel": "Read print work",
         "image": "assets/uploads/placeholder.svg",
@@ -61,7 +61,7 @@
       },
       {
         "title": "Radio",
-        "description": "Audio pieces and interview appearances.",
+        "description": "Audio stories and broadcasts",
         "link": "radio.html",
         "linkLabel": "Listen to audio",
         "image": "/assets/uploads/Screenshot 2025-11-18 120522.png",
