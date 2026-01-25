@@ -37,7 +37,7 @@
     "items": [
       {
         "title": "Reel",
-        "description": "A quick montage of documentary and editorial stories.",
+        "description": "A compilation of my work as a multi-media journalist",
         "link": "reel.html",
         "linkLabel": "Watch the reel",
         "image": "/assets/uploads/IMG_0234.JPG",
@@ -48,7 +48,7 @@
         "description": "Broadcast segments and on camera production work.",
         "link": "tv.html",
         "linkLabel": "See TV work",
-        "image": "assets/uploads/placeholder.svg",
+        "image": "/assets/uploads/control room.jpg",
         "alt": "News crew at a shoreline"
       },
       {
