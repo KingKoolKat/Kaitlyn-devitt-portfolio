@@ -1,10 +1,12 @@
 {
-  "title": "Voices from the Trail",
-  "outlet": "KEXP",
-  "date": "2021",
-  "blurb": "Conversation about portrait sessions with hikers and rangers.",
-  "link": "https://example.com/",
+  "title": "America’s favorite pollinator species is experiencing its biggest loss in history. What’s the buzz?",
+  "outlet": "Illinois Public Media Student Newsroom",
+  "date": "2025",
+  "blurb": "Conversation about the US seeing the largest recorded bee death rate in history",
+  "link": "https://ipmnewsroom.org/americas-favorite-pollinator-species-is-experiencing-its-biggest-loss-in-history-whats-the-buzz/",
   "linkLabel": "Listen",
-  "thumbnail": "assets/uploads/placeholder.svg",
-  "alt": "Person wearing headphones outdoors"
+  "thumbnail": "/assets/uploads/IMG_9876.JPG",
+  "alt": "Person wearing headphones outdoors",
+  "embedUrl": "",
+  "embedTitle": ""
 }
