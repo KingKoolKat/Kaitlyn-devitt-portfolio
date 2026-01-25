@@ -3,29 +3,29 @@
   "intro": "A series of casual photos taken by someone who loves capturing a moment",
   "photos": [
     {
-      "image": "/assets/uploads/solution.png",
-      "alt": "Portrait in soft coastal fog",
-      "caption": "Coastal portrait"
+      "image": "/assets/uploads/IMG_0123.JPG",
+      "alt": "Portrait on the Smoky Mountains",
+      "caption": "Portrait on the Smoky Mountains"
     },
     {
       "image": "/assets/uploads/IMG_9575.JPG",
       "alt": "Crossing the Ohio river at sunset",
-      "caption": "Morning river"
+      "caption": "Crossing the Ohio river at sunset"
     },
     {
       "image": "/assets/uploads/IMG_0059.JPG",
       "alt": "Backseat perspective",
-      "caption": "Local harvest"
+      "caption": "Backseat perspective"
     },
     {
-      "image": "assets/uploads/placeholder.svg",
+      "image": "/assets/uploads/IMG_9521.JPG",
       "alt": "Mountain ridge with wildflowers",
-      "caption": "Alpine bloom"
+      "caption": "Caught in conversation"
     },
     {
-      "image": "assets/uploads/placeholder.svg",
+      "image": "/assets/uploads/IMG_0878.JPG",
       "alt": "Sunlight through evergreen canopy",
-      "caption": "Evergreen light"
+      "caption": "Chess"
     },
     {
       "image": "assets/uploads/placeholder.svg",
