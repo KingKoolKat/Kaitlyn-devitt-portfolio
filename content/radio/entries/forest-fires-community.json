@@ -1,11 +1,11 @@
 {
-  "title": "Forest Fires and Community Response",
-  "outlet": "NPR",
-  "date": "2023",
-  "blurb": "Interview about community led recovery projects and the role of visual storytelling.",
-  "link": "https://example.com/",
+  "title": "Turning Point USA Founder Charlie Kirk receives a warm welcome to the University of Illinois",
+  "outlet": "Illinois Public Media Student Newsroom",
+  "date": "2025",
+  "blurb": "A radio story on an event hosted by conservative figure, Charlie Kirk, during his series of touring college campuses.",
+  "link": "https://ipmnewsroom.org/turning-point-usa-founder-charlie-kirk-receives-a-warm-welcome-to-the-university-of-illinois/",
   "linkLabel": "Listen",
-  "thumbnail": "assets/uploads/placeholder.svg",
+  "thumbnail": "/assets/uploads/Screenshot (107).png",
   "alt": "Microphone in a quiet studio",
   "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308252114&color=%232b8a7b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
   "embedTitle": "Forest Fires and Community Response"
