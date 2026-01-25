@@ -1,10 +1,12 @@
 {
-  "title": "River Town Stories",
-  "outlet": "CNN",
-  "date": "2022",
-  "blurb": "On location coverage of water access and rural infrastructure challenges.",
-  "link": "https://example.com/",
-  "linkLabel": "Watch story",
+  "title": "Celebrating Native American Heritage Month",
+  "outlet": "UI7 Newsroom",
+  "date": "2025",
+  "blurb": "An inside look at the University of Illinois' Native American Heritage Month celebration",
+  "link": "https://youtu.be/SNGPUGImQEc",
+  "linkLabel": "Watch",
   "thumbnail": "assets/uploads/placeholder.svg",
-  "alt": "Wide shot of a town on a river"
+  "alt": "Wide shot of a town on a river",
+  "embedUrl": "",
+  "embedTitle": ""
 }
